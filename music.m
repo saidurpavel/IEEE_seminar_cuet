@@ -10,7 +10,6 @@ function [P,DOA_est]  =music(R,array,n_source,stp)
 % stp: resolution (default 1)
 %
 % Return P: Normalized Pseduspectrum of MUSIC algorithm
-% 05/28/2025 by Saidur R. Pavel
 %------------------------------------------------------------------------------------------------%
 
 % Extracting the variables from the structure

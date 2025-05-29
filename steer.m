@@ -13,8 +13,6 @@ function A = steer(theta,array,d)
 % Return:
         %  A: Array manifold matrix
 %
-% 07/22/2022 by Saidur R. Pavel 
-%
 
 if nargin < 3
     d = 0.5;    % default interelement spacing
