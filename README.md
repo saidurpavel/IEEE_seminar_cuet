@@ -1,5 +1,5 @@
-slide.pptx is the slide used for the presentation
+slide.pptx: Presentation slide 
 
-doa_estimation_main.m : Is the main code for DOA estimation. It uses function "music.m", "mvdr_doa.m", and "steer.m"
+doa_estimation_main.m: Main script for DOA estimation. It uses the functions music.m, mvdr_doa.m, and steer.m.
 
-beamforming_main_mvdr: is the MVDR based beamforming code
+beamforming_main_mvdr.m: Script for MVDR-based beamforming
