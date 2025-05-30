@@ -1,4 +1,4 @@
-function [P,DOA_est]  =music(R,array,n_source,stp)
+function P  =music(R,array,n_source,stp)
 
 %------------------------------------------------------------------------------------------------%
 % music_d(R,array,n_source,stp) provides MUSIC spectra
@@ -44,7 +44,7 @@ for m = 1:length(theta_r) % scanning through all angles to see where peak is app
 end
 
 P = abs(P)./max(max(abs(P)));
-DOA_est = peak_location(P,n_source,-90:stp:90);   % Estimated DOA
+
 
 
 end

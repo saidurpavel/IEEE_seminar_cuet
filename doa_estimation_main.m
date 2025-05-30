@@ -33,7 +33,7 @@ X = A*s+noise; % Array received signal
 R = (1/T)*(X*X');
 
 % ------------ MUSIC based DOA -----------------------
-[P,DOA_est] = music(R,array,D); % MUSIC based DOA
+P = music(R,array,D); % MUSIC based DOA
 
 figure(1)
 plot(-90:90,P);    % MUSIC Spectrum
