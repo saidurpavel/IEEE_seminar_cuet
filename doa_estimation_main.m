@@ -13,7 +13,7 @@ D = 7;           % Number of signals
 % Chossing some angles between -60 to 60 degree. 
 % you can choose any angles you like
 
-theta = linspace(-60,60,D);
+theta = [-50,-35,-25,10,18,30,40];
 A = steer(theta,array);      % Steering matrix
 
 SNR_dB = 10;                 % SNR in dB
